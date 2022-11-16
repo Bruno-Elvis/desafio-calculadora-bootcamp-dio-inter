@@ -8,25 +8,24 @@ export const Container = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-`
-
+`;
 
 export const Content = styled.div`
-    background-color: #FFFFFF;
+    background-color: #fff;
     width: 50%;
-`
+    box-shadow: 10px 10px 20px 0px #000;
+`;
 
 export const Row = styled.div`
     display:flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-`
+`;
 
 export const Column = styled.div`
     display:flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-`
-
+`;
